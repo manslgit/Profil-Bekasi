@@ -102,7 +102,7 @@ aside {
 }
 
 .card:hover {
-  transform: scale(101%);
+  transform: scale(104%);
   -webkit-box-shadow: -1px 1px 11px -3px rgba(51, 255, 0, 1);
   -moz-box-shadow: -1px 1px 11px -3px rgba(51, 255, 0, 1);
   box-shadow: -1px 1px 11px -3px rgba(51, 255, 0, 1);
