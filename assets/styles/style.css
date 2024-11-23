@@ -26,14 +26,9 @@ footer {
   font-weight: bold;
 }
 
-.gas {
-  background: rgb(164, 239, 125);
-  background: linear-gradient(90deg, #a4ef7d 0%, rgba(67, 199, 64, 1) 54%, rgba(8, 167, 47, 1) 100%);
-}
-
 nav {
   padding: 5px;
-  backdrop-filter: brightness(95%);
+background-color: #0ec24a;
   text-align: right;
   position: sticky;
   top: 0;
@@ -104,20 +99,24 @@ aside {
 }
 
 .card:hover {
-  transform: scale(104%);
   -webkit-box-shadow: -1px 1px 11px -3px rgba(51, 255, 0, 1);
   -moz-box-shadow: -1px 1px 11px -3px rgba(51, 255, 0, 1);
   box-shadow: -1px 1px 11px -3px rgba(51, 255, 0, 1);
 }
 
+header {
+  display: inline;
+}
+
 .jumbroton {
+  background: linear-gradient(90deg, #a4ef7d 0%, rgba(67, 199, 64, 1) 54%, rgba(8, 167, 47, 1) 100%);
   font-size: 20px;
   text-align: center;
   padding: 30px;
   color: white;
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1500px) {
   #content, aside {
     width: 100%;
     padding: 0;
